@@ -1,0 +1,27 @@
+﻿namespace {namespaceStr}
+{
+    public class {EntityInput}
+    {
+        public long Id { get; set; }
+    }
+
+    public class {QueryEntityDto} : PageInputBase
+    {
+
+    }
+
+    public class {AddEntityInput}
+    {
+{Attribute}
+    }
+
+    public class {PutEntityInput}
+    {
+{Attribute}
+    }
+
+    public class {DeleteEntityInput} : {EntityInput}
+    {
+
+    }
+}

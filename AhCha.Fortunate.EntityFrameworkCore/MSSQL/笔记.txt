@@ -1,0 +1,9 @@
+﻿Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
+TrustServerCertificate=true; 解决不受信任证书
+-OutputDir 输出的文件夹名称
+Scaffold-DbContext "Data Source=localhost;Initial Catalog=AhChaFortunate;User ID=sa;Password=123;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir MSSQL -Force
+
+Scaffold-DbContext "链接字符串" Pomelo.EntityFrameworkCore.MySql -OutputDir TEntity -Tables tab  -Force

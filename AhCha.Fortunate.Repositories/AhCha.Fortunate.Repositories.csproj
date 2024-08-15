@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AhCha.Fortunate.Common\AhCha.Fortunate.Common.csproj" />
+    <ProjectReference Include="..\AhCha.Fortunate.EntityFrameworkCore\AhCha.Fortunate.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\AhCha.Fortunate.Entity\AhCha.Fortunate.Entity.csproj" />
+    <ProjectReference Include="..\AhCha.Fortunate.ModelsDto\AhCha.Fortunate.ModelsDto.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+</Project>

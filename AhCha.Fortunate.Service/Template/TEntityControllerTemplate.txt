@@ -1,0 +1,21 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using AhCha.Fortunate.ModelsDto;
+using AhCha.Fortunate.Api.AppCode;
+using AhCha.Fortunate.Common.Enum;
+using AhCha.Fortunate.Common.Const;
+{usingStr}
+namespace {namespaceStr}
+{
+    [ApiExplorerSettings(GroupName = SwaggerGroupName.UndefinedModules)]
+    public class {TEntity}Controller : BaseApiController
+    {
+        private readonly I{TEntity}Service _i{TEntity}Service;
+        public {TEntity}Controller(I{TEntity}Service i{TEntity}Service)
+        {
+            _i{TEntity}Service = i{TEntity}Service;
+        }
+    
+{ApiList}
+    
+    }
+}

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="aliyun-net-sdk-core" Version="1.5.11" />
+    <PackageReference Include="Aliyun.OSS.SDK.NetCore" Version="2.14.1" />
+    <PackageReference Include="CSRedisCore" Version="3.8.803" />
+    <PackageReference Include="KYSharp.SM.Core" Version="1.0.1" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NPOI" Version="2.7.1" />
+    <PackageReference Include="PinYinConverterCore" Version="1.0.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+    <PackageReference Include="TinyPinyin.Net" Version="1.0.2" />
+    <PackageReference Include="UAParser" Version="3.1.47" />
+    <PackageReference Include="Yitter.IdGenerator" Version="1.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    <PackageReference Include="ZXing.Net.Bindings.ZKWeb.System.Drawing" Version="0.16.7" />
+  </ItemGroup>
+</Project>

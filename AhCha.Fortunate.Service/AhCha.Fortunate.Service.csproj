@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Template\TEntityControllerTemplate.txt" />
+    <None Remove="Template\TEntityDtoInputTemplate.txt" />
+    <None Remove="Template\TEntityDtoOutputTemplate.txt" />
+    <None Remove="Template\TEntityIServiceTemplate.txt" />
+    <None Remove="Template\TEntityServiceTemplate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Template\TEntityIServiceTemplate.txt" />
+    <EmbeddedResource Include="Template\TEntityControllerTemplate.txt" />
+    <EmbeddedResource Include="Template\TEntityDtoInputTemplate.txt" />
+    <EmbeddedResource Include="Template\TEntityDtoOutputTemplate.txt" />
+    <EmbeddedResource Include="Template\TEntityServiceTemplate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AhCha.Fortunate.EntityFrameworkCore\AhCha.Fortunate.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\AhCha.Fortunate.Entity\AhCha.Fortunate.Entity.csproj" />
+    <ProjectReference Include="..\AhCha.Fortunate.IService\AhCha.Fortunate.IService.csproj" />
+    <ProjectReference Include="..\AhCha.Fortunate.Repositories\AhCha.Fortunate.Repositories.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DaMeng\" />
+    <Folder Include="MySQL\" />
+    <Folder Include="MySQL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿namespace {namespaceStr}
+{
+    public class {EntityOutput}
+    {
+{Attribute}
+    }
+}

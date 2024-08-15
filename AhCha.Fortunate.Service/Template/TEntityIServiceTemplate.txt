@@ -1,0 +1,9 @@
+﻿{usingStr}
+
+namespace {namespaceStr}
+{
+    public interface I{TEntity}Service : IBaseServices<{TEntity}>
+    {
+{interfaces}
+    }
+}

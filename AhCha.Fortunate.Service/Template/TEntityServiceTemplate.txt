@@ -1,0 +1,22 @@
+﻿using Mapster;
+using SqlSugar;
+using AhCha.Fortunate.ModelsDto;
+using AhCha.Fortunate.Repositories.SqlSugar;
+{usingStr}
+
+namespace {namespaceStr}
+{
+    public class {TEntity}Service : BaseServices<{TEntity}>, I{TEntity}Service
+    {
+        private readonly SqlSugarRepository<{TEntity}> _TEntityRep;
+        public {TEntity}Service(SqlSugarRepository<{TEntity}> TEntityRep)
+        {
+            _TEntityRep = TEntityRep;
+        }
+
+
+{ImplementInterface}
+
+
+    }
+}
